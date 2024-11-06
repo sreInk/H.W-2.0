@@ -1,10 +1,10 @@
-def tuple_product(numbers):
-    product = 1
+def tp(numbers):
+    pro = 1
     for num in numbers:
-        product *= num
-    return product
+        pro *= num
+    return pro
 
-# Example usage
-numbers = (2, 3, 4)  # Replace with any tuple of numbers
-result = tuple_product(numbers)
+
+numbers = (2, 3, 4)  
+result = tp(numbers)
 print("The product of the tuple is:", result)
